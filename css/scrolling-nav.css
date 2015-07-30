@@ -1,0 +1,138 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.seccionblanca {
+
+    padding-top: 50px;
+    background: #fff;
+}
+
+.seccioninicio {
+    height: 70%;
+    background-image: url(../img/valparaisopanoramica.jpg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.margensuinf{
+   margin-top: 200px;
+}
+
+
+.personas{
+    border: 1px;
+    width: 100%;
+    height: 300px;
+    overflow:hidden;
+    vertical-align: top;
+}
+
+/*----bvalparaiso-23   Iglesia_Convento_San_Francisco_Valparaiso---*/
+
+@media (min-width: 993px) {
+    .seccioninicio {
+        height: 70%;
+        background-image: url(../img/valparaisopanoramica.jpg);
+        background-size: 100%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    .margensuinf{
+   margin-top: 200px;
+    }
+
+
+    .personas{
+    border: 1px;
+    width: 100%;
+    height: 300px;
+    overflow:hidden;
+    vertical-align: top;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 992px)  {
+    .seccioninicio {
+    height: 70%;
+    background-image: url(../img/valparaisopanoramicasm.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    }
+
+    .margensuinf{
+   margin-top: 200px;
+    }
+
+
+    .personas{
+    border: 1px;
+    width: 100%;
+    height: 300px;
+    overflow:hidden;
+    vertical-align: top;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .seccioninicio {
+    height: 100%;
+    background-size: 100%;
+    background-image: url(../img/valparaisopanoramicaxs.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    }
+
+    .margensuinf{
+      margin-top: 100px;
+    }
+
+
+    .personas{
+        border: 1px;
+        width: 100%;
+        height: 400px;
+        overflow:hidden;
+        vertical-align: top;
+    }
+
+}
